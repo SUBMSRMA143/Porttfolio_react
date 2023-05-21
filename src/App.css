@@ -1,0 +1,177 @@
+.projects:hover .project:not(:hover) {
+    opacity: 0.5;
+    filter: blur(3px);
+}
+
+.projects {
+    animation: rotateAnimation 3s infinite ease-in-out;
+}
+
+/* 
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    25% {
+        transform: rotate(135deg);
+    }
+
+    50% {
+        transform: rotate(225deg);
+    }
+
+    75% {
+        transform: rotate(315deg);
+    }
+
+    100% {
+        transform: rotate(45deg);
+    }
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.a,
+.b,
+.c,
+.d {
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.a {
+    top: 10%;
+    left: 42%;
+    animation-name: aa;
+}
+
+.b {
+    top: 27%;
+    left: 31%;
+    animation-name: ba;
+}
+
+.c {
+    top: 44%;
+    left: 42%;
+    animation-name: ca;
+}
+
+.d {
+    top: 27%;
+    left: 53%;
+    animation-name: da;
+}
+
+@keyframes aa {
+    0% {
+        top: 10%;
+        left: 42%;
+    }
+
+    25% {
+        top: 27%;
+        left: 31%;
+    }
+
+    50% {
+        top: 44%;
+        left: 42%;
+    }
+
+    75% {
+        top: 27%;
+        left: 53%;
+    }
+
+    100% {
+        top: 10%;
+        left: 42%;
+    }
+}
+
+@keyframes ba {
+    0% {
+        top: 27%;
+        left: 31%;
+    }
+
+    25% {
+        top: 44%;
+        left: 42%;
+    }
+
+    50% {
+        top: 27%;
+        left: 53%;
+    }
+
+    75% {
+        top: 10%;
+        left: 42%;
+    }
+
+    100% {
+        top: 27%;
+        left: 31%;
+    }
+}
+
+@keyframes ca {
+    0% {
+        top: 27%;
+        left: 53%;
+    }
+
+    25% {
+        top: 10%;
+        left: 42%;
+    }
+
+    50% {
+        top: 27%;
+        left: 31%;
+    }
+
+    75% {
+        top: 44%;
+        left: 42%;
+    }
+
+    100% {
+        top: 27%;
+        left: 53%;
+    }
+}
+
+@keyframes da {
+    0% {
+        top: 44%;
+        left: 42%;
+    }
+
+    25% {
+        top: 27%;
+        left: 53%;
+    }
+
+    50% {
+        top: 10%;
+        left: 42%;
+    }
+
+    75% {
+        top: 27%;
+        left: 31%;
+    }
+
+    100% {
+        top: 44%;
+        left: 42%;
+    }
+}
