@@ -201,11 +201,11 @@ window.onload = function () {
         c.fillStyle = "hsl(210,100%,80%)";
         c.fill();
 
-        for (i = 0; i < numt; i++) {
+        for (let i = 0; i < numt; i++) {
             tent[i].move(last_target, target);
             tent[i].show2(target);
         }
-        for (i = 0; i < numt; i++) {
+        for (let i = 0; i < numt; i++) {
             tent[i].show(target);
         }
         last_target.x = target.x;
