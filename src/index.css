@@ -31,4 +31,6 @@ body {
   padding: 0px;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #3B82F6 transparent;
 }
