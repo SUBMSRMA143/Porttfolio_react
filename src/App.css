@@ -50,10 +50,81 @@
     animation-name: aa;
 }
 
+@media (max-width: 500px) {
+    .a {
+        top: 14%;
+        left: 42%;
+        animation-name: none;
+    }
+
+    @keyframes aa {
+        0% {
+            top: 14%;
+            left: 42%;
+        }
+
+        25% {
+            top: 27%;
+            left: 25%;
+        }
+
+        50% {
+            top: 40%;
+            left: 42%;
+        }
+
+        75% {
+            top: 27%;
+            left: 58%;
+        }
+
+        100% {
+            top: 14%;
+            left: 42%;
+        }
+    }
+}
+
 .b {
     top: 27%;
     left: 31%;
     animation-name: ba;
+}
+
+@media (max-width: 500px) {
+    .b {
+        top: 27%;
+        left: 25%;
+        animation-name: none;
+    }
+
+    @keyframes ba {
+        0% {
+            top: 27%;
+            left: 25%;
+        }
+
+        25% {
+            top: 40%;
+            left: 42%;
+        }
+
+        50% {
+            top: 27%;
+            left: 58%;
+        }
+
+        75% {
+            top: 14%;
+            left: 42%;
+        }
+
+        100% {
+            top: 27%;
+            left: 25%;
+        }
+    }
+
 }
 
 .c {
@@ -62,10 +133,81 @@
     animation-name: ca;
 }
 
+@media (max-width: 500px) {
+    .c {
+        top: 40%;
+        left: 42%;
+        animation-name: none;
+    }
+
+    @keyframes ca {
+        0% {
+            top: 27%;
+            left: 58%;
+        }
+
+        25% {
+            top: 14%;
+            left: 42%;
+        }
+
+        50% {
+            top: 27%;
+            left: 25%;
+        }
+
+        75% {
+            top: 40%;
+            left: 42%;
+        }
+
+        100% {
+            top: 27%;
+            left: 58%;
+        }
+    }
+
+}
+
 .d {
     top: 27%;
     left: 53%;
     animation-name: da;
+}
+
+@media (max-width: 500px) {
+    .d {
+        top: 27%;
+        left: 58%;
+        animation-name: none;
+    }
+
+    @keyframes da {
+        0% {
+            top: 40%;
+            left: 42%;
+        }
+
+        25% {
+            top: 27%;
+            left: 58%;
+        }
+
+        50% {
+            top: 14%;
+            left: 42%;
+        }
+
+        75% {
+            top: 27%;
+            left: 25%;
+        }
+
+        100% {
+            top: 40%;
+            left: 42%;
+        }
+    }
 }
 
 @keyframes aa {

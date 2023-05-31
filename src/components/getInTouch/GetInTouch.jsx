@@ -5,7 +5,7 @@ const GetInTouch = () => {
             hover:bg-gray-200
             active:bg-gray-700
             border-blue-500 cursor-pointer duration-500 rounded-xl
-            fixed top-5 right-5 z-[30]"
+            fixed top-5 right-5 z-[30]  max-[500px]:top-6"
         >Get in Touch </div>
     )
 }
