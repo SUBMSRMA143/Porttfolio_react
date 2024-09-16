@@ -1,13 +1,14 @@
-import me from "./IMG_20230505_093514.jpg"
+import me from "./aa.jpg"
+// import me from "./IMG_20230505_093514.jpg"
 
 const About = () => {
     return (
-        <div id="2" className="bg-black w-[100vw] max-[500px]:w-100 h-[100%] pt-[50px]">
+        <div id="2" className=" w-[100vw] max-[500px]:w-100 h-[100%] pt-[50px]">
             <div
-                className="h-[70%] max-[500px]:h-[99%] try w-[100%] backdrop-blur absolute z-[2] flex max-[500px]:flex-col items-center px-[100px] max-[500px]:px-0 pl-[150px] border-y-2 border-gray-600">
+                className="h-[70%] max-[500px]:h-[99%] try w-[100%] backdrop-blur absolute z-[2] flex max-[500px]:flex-col items-center  max-[500px]:px-0 justify-center pl-[200px] border-y-2 border-gray-600">
                 <img src={me} alt="picture"
-                    className="rounded-full max-[500px]:rounded-none object-cover w-[700px]  h-[400px] max-[500px]:h-[300px] " />
-                <div className="w-[100%] px-[100px] max-[500px]:px-0 flex flex-col max-[500px]:px-5 py-5 gap-5 items-center">
+                    className="rounded-full max-[500px]:rounded-none object-cover w-[700px] grayscale-[100%] h-[450px] max-[500px]:h-[300px] " />
+                <div className="w-[100%] px-[100px] max-[500px]:px-0 flex flex-col max-[500px]:px-5 py-5 gap-5">
                     <div className="skills flex flex-col gap-3">
                         <h1 className="text-xl text-blue-500">Skills :</h1>
                         <div className="skill_list flex gap-3 flex-wrap">
