@@ -15,7 +15,7 @@ const Projects = () => {
     return (
         <div id="3" className="w-[100vw] h-[100%] max-[500px]:h-[80%] bg-black flex justify-center items-center">
             <div
-                className="w-[60%] h-[80%] max-[500px]:w-[100%] max-[500px]:h-[80%] max-[500px]:rounded-none z-[1] rounded-3xl border max-[500px]:border-r-none max-[500px]:border-l-none relative backdrop-blur projects flex flex-col justify-center items-center gap-[70px]">
+                className="w-[60%] h-[80%] max-[500px]:w-[100%] max-[500px]:h-[80%] max-[500px]:rounded-none z-[1] rounded-3xl border max-[500px]:border-r-none max-[500px]:border-l-none relative backdrop-blur projects flex justify-center items-center gap-[70px]">
                 {/* <div
                     className={`flex justify-around items-center flex-wrap w-[250px] projects transition-all duration-1000 gap-2`} > */}
                 <div
@@ -42,7 +42,6 @@ const Projects = () => {
                         <img src={eCommerce} className=" w-100 h-[100%] object-cover rounded-3xl  " alt="img" />
                     </a>
                 </div>
-                {/* </div> */}
                 <a href="https://github.com/SUBMSRMA143" target="_blank"
                     className="border-dotted border-b-2 absolute bottom-[15%] text-white hover:scale-110 duration-200 hover:bg-white hover:text-black">More</a>
             </div>
